@@ -59,40 +59,43 @@ function App() {
           </h3>
           <div className="shows">
             <div className="show"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image9.png?raw=true" alt="" />
-            <p>Weekly Motivatio...</p>
+              <p>Weekly Motivatio...</p>
+              <span>Ben Ins Scott</span>
             </div>
             <div className="show"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image8.png?raw=true" alt="" />
-            <p>MOTIVATION SELF</p>
+              <p>MOTIVATION SELF</p><span>Ben Ins Scott</span>
             </div>
             <div className="show"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image7.png?raw=true" alt="" />
-            <p>Words beyond act...</p>
+              <p>Words beyond act...</p><span>Ben Ins Scott</span>
             </div>
             <div className="show"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image6.png?raw=true" alt="" />
-            <p>The Alexa Show</p></div>
+              <p>The Alexa Show</p><span>Ben Ins Scott</span></div>
             <div className="show"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image5.png?raw=true" alt="" />
-            <p>The Stories of Ma...</p></div>
+              <p>The Stories of Ma...</p><span>Ben Ins Scott</span></div>
             <div className="show"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image10.png?raw=true" alt="" />
-            <p>Motivation Daily b...</p></div>
+              <p>Motivation Daily b...</p><span>Ben Ins Scott</span></div>
           </div>
         </div>
       </div>
-        <div className="above">
-      <div className="bottom">
-        <div className="dreaming"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image11.png?raw=true" alt="" />
-          <div className='dream-text'>
-            <p>Dreaming On</p>
-            <p>NEFFEX</p>
+      <div className="above">
+        <div className="bottom">
+          <div className="dreaming"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image11.png?raw=true" alt="" />
+            <div className='dream-text'>
+              <p>Dreaming On</p>
+              <p>NEFFEX</p>
+            </div>
+            <img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/bx_bxs-heart.png?raw=true" alt="" id='heart' />
           </div>
-          <img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/bx_bxs-heart.png?raw=true" alt="" id='heart' />
+          <div className="play">
+            <img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Music%20Player%20Options.png?raw=true" alt="" />
+          </div>
+          <div className="control">
+            <img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Right%20options.png?raw=true" alt="" />
+          </div>
         </div>
-        <div className="play">
-          <img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Music%20Player%20Options.png?raw=true" alt="" />
+        <div className="below">
+        Listening on ASUS-ROG-G531GT
         </div>
-        <div className="control">
-          <img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Right%20options.png?raw=true" alt="" />
-        </div>
-      </div>
-      <div className="below"></div>
       </div>
     </>
   )
